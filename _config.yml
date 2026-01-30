@@ -7,7 +7,3 @@ show_downloads: false
 repository: StrikerEureka34/StrikerEureka34.github.io
 
 future: true
-
-collections:
-  posts:
-    output: true
