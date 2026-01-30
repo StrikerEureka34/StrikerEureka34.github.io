@@ -18,9 +18,6 @@ All entries are written in simple language for clarity.
 
 ## Daily Entries
 
-
-Total posts detected: {{ site.posts | size }}
-
-{% for post in site.posts %}
-- **{{ post.date | date: "%d %b %Y" }}** — [{{ post.title }}]({{ post.url }})
+{% for entry in site.entries %}
+- **{{ entry.date | date: "%d %b %Y" }}** — [{{ entry.title }}]({{ entry.url }})
 {% endfor %}
