@@ -21,3 +21,6 @@ All entries are written in simple language for clarity.
 {% for entry in site.entries %}
 - **{{ entry.date | date: "%d %b %Y" }}** — [{{ entry.title }}]({{ entry.url }})
 {% endfor %}
+{% for entry in site.entries %}
+- **{{ entry.date | date: "%d %b %Y" }}** — [{{ entry.title }}]({{ entry.url }})
+{% endfor %}
